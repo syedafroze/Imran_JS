@@ -1,4 +1,4 @@
-// index       0        1     2       3
+// index        0        1     2       3
 let names = ["syed", "sadiq", "imran", "abu"];
 
 //----------------------length of array-------------
