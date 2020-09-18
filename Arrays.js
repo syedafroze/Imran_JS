@@ -1,6 +1,46 @@
 // index        0        1     2       3
 let names = ["syed", "sadiq", "imran", "abu"];
 
+let arr = [3, 2, 4, 1, 5, 6, 9]; //5,6,9
+
+//map
+//[false,,true]
+
+//filter  
+//[5,6,9]
+let resArr = arr.filter( (val)=> (val>4) );
+
+console.log(resArr);
+
+
+
+
+
+// let resArr = [];//[5,6,9]
+
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] > 4) {
+//     resArr.push(arr[i]);
+//   }
+// }
+
+//console.log(resArr)
+
+
+
+
+
+///[9,4,,16,1]
+//ArrayName.map(function)
+// let res = arr.map( (val) => val*val );
+// console.log(res);
+
+///[9,4,16,1]
+
+// for(i=0;i<arr.length;i++){
+//  console.log( arr[i]*arr[i]);
+// }
+
 //----------------------length of array-------------
 //length - number of elements in an array
 let len = names.length;
@@ -28,7 +68,7 @@ let copiedArr = names.slice(1, 3);
 
 //--------------------------------indexOf --------------------------------
 ///indexOf - it gives index of the element where it has occured for first time ...
-let arr = [3, 4, 3, 5, 2, 3, 4, 2];
+let arr2 = [3, 4, 3, 5, 2, 3, 4, 2];
 
 //--------------------find method-----------------------
 
