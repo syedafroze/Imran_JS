@@ -2,7 +2,7 @@
 let names = ["syed", "sadiq", "imran", "abu"];
 
 let arr = [3, 2, 4, 1, 5, 6, 9]; //5,6,9
-
+//Data structure
 //map
 //[false,,true]
 

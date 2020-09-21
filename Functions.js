@@ -24,7 +24,7 @@ let add  =(num=0,num2=0) =>  num+num2 ; //0
 
 let result = add(2,3);//function call 
 
-console.log(result); 
+console.log(result); //
 
 
 
