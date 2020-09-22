@@ -41,7 +41,44 @@ obj2.name="khan"
 console.log(obj1);
 console.log(obj2);
 
-//
+//8:30-5:30
+
+// let data={
+//   name:"syed",
+//   id:6,
+//   gender:"male"
+// }
+
+//Object to Array convertion
+
+// let ObjToArr = Object.entries(data);
+// console.log(ObjToArr)
+
+//Object.keys 
+
+// console.log(Object.keys(data));
+
+// console.log(Object.values(data));
+
+
+// for(i in data){
+//   console.log(data[i])
+// }
+
+
+const  data2={
+  name:"syed",
+  id:6,
+  gender:"male"
+}
+Object.freeze(data2)
+data2.name="Arbaaz";//
+console.log(data2);
+
+
+
+
+
 
 
 

@@ -26,3 +26,5 @@ obj2.name="khan"
 console.log(obj);//{name:"khan"}
 console.log(obj2);//{name:"khan"};
 
+
+
