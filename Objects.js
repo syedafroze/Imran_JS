@@ -123,15 +123,43 @@ let emp2={
 //class 
 
 
-class Student{
-constructor(name,id){
-  this.name=name;
-  this.id=id;
-}
+// class Student{
+// constructor(name,id){
+//   this.name=name;
+//   this.id=id;
+// }
+// }
+
+// let emp6 = new Student("naseer",7)
+// console.log(emp6);
+
+//----------------------------------------------
+//class inheritance 
+//Parent class 
+class Address{
+  constructor(state,country){
+    this.state=state;
+    this.country=country;
+  }
 }
 
-let emp6 = new Student("naseer",7)
-console.log(emp6);
+//child class
+class Student extends Address{
+  constructor(name,id,state,country){
+    super(state,country)
+    this.name=name;
+    this.id=id;
+    
+  }
+  }
+  
+  let emp6 = new Student("naseer",7,"mumbai","India")
+  console.log(emp6);
+
+
+  
+
+
 
 
 

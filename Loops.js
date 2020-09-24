@@ -56,7 +56,7 @@ let str3 =`m` ;//back ticks
 //length 
 //keyword - already defined in programming ;
 let len = str.length;
-console.log(len);
+//console.log(len);
 
 //includes //
 
@@ -64,18 +64,28 @@ let str4 = "ran";
 
 let check = str.includes(str4);
 
-console.log(check);
+//console.log(check);
 
 //charAt 
 
-console.log(str.charAt(3));
+//console.log(str.charAt(3));
 
+//for in  loop
+let array = [ 4,3,5,6]
+//in represent index
+for(i in array){
+   //console.log(array[i])
+}
 
+//for of loop
 
+for( i of array){
+   console.log(i);
+}
 
+//routers
 
-
-
+//iterator 
 
 
 
