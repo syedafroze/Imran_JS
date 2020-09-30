@@ -56,7 +56,7 @@ function factorial(num){
     return num*factorial(num-1);//5*fact(4)
   }
 }
-//console.log(factorial(5));
+console.log(factorial(5));
 /*
 factorial(5)
 return 5*4*3*2*1=120;
@@ -73,14 +73,33 @@ return 1;
 //currying functions
 
 function mul(a){
-
-  return function(b){
-
-    return function(c){
-      console.log(a*b*c);
+  console.log(a);
+    return function(b){
+  console.log(b);//
+      return function(c){
+        console.log(a*b*c);
+      }
     }
   }
-}
+  
+  let res = mul(2);
+  console.log(res)
+  // console.dir(res)
+  let res2 = res(3);//function c
+  console.dir(res2)
+  console.log(res2(4));
+  // console.log(res2);
+  
+  
 
-let res = mul(2)(3)(4);
-console.log(res);
+  ///IIFE
+//imediately involed function expression
+
+//(function fun(){console.log("IIFE")})()
+
+  
+  //Display Date and Time
+
+  //setInterval(()=>document.getElementById("date").innerHTML=new Date(),1000);
+  //html
+  //<h2 id="date"></h2>

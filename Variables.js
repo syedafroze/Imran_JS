@@ -21,3 +21,5 @@
 //const value cannot be chnaged 
 //the declarationa nd the assingment of variables must be done in smae line;
 
+
+
