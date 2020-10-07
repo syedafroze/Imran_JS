@@ -1,0 +1,24 @@
+{
+  "name": "Imran_JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Arrays.js",
+  "dependencies": {
+    "fetch": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedafroze/Imran_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedafroze/Imran_JS/issues"
+  },
+  "homepage": "https://github.com/syedafroze/Imran_JS#readme"
+}

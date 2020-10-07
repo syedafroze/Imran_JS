@@ -2,6 +2,16 @@
 //synchrnous and asychronous 
 
 
+
+//synchronous 
+// here the code executes line by line ,doesnt skip anything ..
+
+
+//asynchronous 
+//here the code which can be executed later ,like setTimeout 
+//Api calls ,DB Connections are called asynchrnous process
+
+
 // function add(a,b){
 //   return a+b;
 // }
